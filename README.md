@@ -45,3 +45,10 @@ POST /api/accounts/{accountId}/transactions/deposit – Realizar depósito
 POST /api/accounts/{accountId}/transactions/pay – Realizar pagamento
 GET /api/accounts/{accountId}/summary – Consultar saldo e histórico
 ```
+
+#### Testes
+Para executar os testes unitários:
+
+```bash
+mvn test
+```
